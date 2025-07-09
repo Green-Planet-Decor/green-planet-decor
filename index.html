@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Green Planet Decor</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5fdf6;
+      color: #2e4f2f;
+    }
+    header {
+      background: #4caf50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #388e3c;
+    }
+    nav a {
+      color: white;
+      padding: 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #2e7d32;
+    }
+    .hero {
+      background-image: url('https://source.unsplash.com/featured/?plants,interior');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    footer {
+      background: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .services, .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      border: 1px solid #c8e6c9;
+      border-radius: 10px;
+      padding: 1rem;
+      flex: 1 1 250px;
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Green Planet Decor</h1>
+    <p>Bringing Nature Into Your Space</p>
+  </header>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#plants">Plants</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="hero">Decorate Naturally</div>
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Home Decor</h3>
+        <p>Green corners, balcony arrangements, kitchen styling with plants.</p>
+      </div>
+      <div class="card">
+        <h3>Office Decor</h3>
+        <p>Workplace plant arrangements to increase productivity and style.</p>
+      </div>
+      <div class="card">
+        <h3>Event Styling</h3>
+        <p>Weddings, birthdays, and parties styled with live and sustainable plants.</p>
+      </div>
+    </div>
+  </section>
+  <section id="plants">
+    <h2>Popular Plants</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Snake Plant</h3>
+        <p>Air purifier and low maintenance.</p>
+      </div>
+      <div class="card">
+        <h3>Monstera</h3>
+        <p>Stylish tropical plant, great for modern interiors.</p>
+      </div>
+      <div class="card">
+        <h3>Succulents</h3>
+        <p>Perfect for desk and small spaces. Easy to care.</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact">
+      <div class="card">
+        <h3>Address</h3>
+        <p>Green Planet Studio, MG Road, Bangalore</p>
+      </div>
+      <div class="card">
+        <h3>Call Us</h3>
+        <p>+91-XXXXXXXXXX</p>
+      </div>
+      <div class="card">
+        <h3>Email</h3>
+        <p>greenplanetdecor@gmail.com</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    &copy; 2025 Green Planet Decor | Designed with love for plants 🌿
+  </footer>
+</body>
+</html>
